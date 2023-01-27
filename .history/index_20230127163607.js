@@ -7,9 +7,10 @@ class App extends React.Component {
     const num = getNum();
     return (
       <div>
-       <h1>your number is {num}</h1>
+        <Hello 
+       <
       </div>
     );}
 }
 
-createRoot(<App />, document.getElementById("root"));
+ReactDOM.render(<App/>, document.getElementById('root'));

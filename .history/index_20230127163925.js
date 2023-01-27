@@ -12,4 +12,4 @@ class App extends React.Component {
     );}
 }
 
-createRoot(<App />, document.getElementById("root"));
+ReactDOM.render(<App/>, document.getElementById('root'));
