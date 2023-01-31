@@ -11,14 +11,11 @@ function getSlots() {
 	return slotItems[r(4) - 1];
 }
 
-//!  13023.2045         EXTENSIONS
 class SlotMachine extends React.Component {
 
   
-    //!  13023.2046         RENDER
 	render() {
  
-        //!  13023.2046         RETURN
 		return (
 			<div>
 				<h1>{sTitle}</h1>

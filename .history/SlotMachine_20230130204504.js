@@ -1,24 +1,18 @@
 
-//!  13023.2045          VARIABLES
+
 const slotItems = ["S", "H", "C", "D"];
 const sTitle = "Slot Machines!";
 const s1 = getSlots();
 const s2 = getSlots();
 const s3 = getSlots();
 
-//!  13023.2045         FUNCTIONS
-function getSlots() {
-	return slotItems[r(4) - 1];
-}
 
-//!  13023.2045         EXTENSIONS
+
 class SlotMachine extends React.Component {
 
   
-    //!  13023.2046         RENDER
 	render() {
  
-        //!  13023.2046         RETURN
 		return (
 			<div>
 				<h1>{sTitle}</h1>

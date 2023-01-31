@@ -18,7 +18,7 @@ class SlotMachine extends React.Component {
     //!  13023.2046         RENDER
 	render() {
  
-        //!  13023.2046         RETURN
+        //!  13023.2046         
 		return (
 			<div>
 				<h1>{sTitle}</h1>
